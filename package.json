@@ -1,18 +1,22 @@
 {
-  "name": "hw_npm",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "(https://github.com/TANINSAMXI/hw_npm.git)"
-  },
-  "author": "TANINSAMXI",
-  "license": "ISC",
-  "dependencies": {
-    "lodash": "^4.17.21"
-  }
+    "name": "hw_npm",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prettier": "npx prettier . --write"
+    },
+    "repository": {
+        "type": "git",
+        "url": "(https://github.com/TANINSAMXI/hw_npm.git)"
+    },
+    "author": "TANINSAMXI",
+    "license": "ISC",
+    "dependencies": {
+        "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+        "prettier": "3.3.3"
+    }
 }
